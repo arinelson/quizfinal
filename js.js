@@ -3,7 +3,7 @@
     if(inicio==false){document.write(sair);}
     else{ window.alert('Começou o game! Clique em Ok abaixo para começar');
     //Inicio do quiz
-    var certo = "<b>Correto!</b>"; var errado = "<b style='color:red;'>Errado!</b>";var o = new Array();
+    var certo = "<b>Correto!</b>"; var errado = "<b style='color:black;'>Errado!</b>";var o = new Array();
     var acertos=0; var erros=0; var respostas = new Array(); var p = new Array();var r = new Array();
     var t=13; //COLOQUE AQUI TOTAL DE PERGUNTAS DO QUIZ !!!!
     // LISTA DE PERGUNTAS
