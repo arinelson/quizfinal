@@ -7,25 +7,25 @@
     var acertos=0; var erros=0; var respostas = new Array(); var p = new Array();var r = new Array();
     var t=13; //COLOQUE AQUI TOTAL DE PERGUNTAS DO QUIZ !!!!
     // LISTA DE PERGUNTAS
-    p[1] = "- Qual é o comando para exibir uma mensagem na tela?\n\n1. escreva()\n2. leia()\n3. escrevar()\n4. leitura().\n";
+    p[1] = "- Qual é o comando para exibir uma mensagem na tela?\n\n1. escreva()\n2. leia()\n3. escrevar()\n4. leitura()\n";
     r[1] = '1. escreva()';
     p[2] = "- Aquilo que se guarda dados na memoória do computador ou a mesma coisa que uma gaveta que se guarda coisas, é:\n\n1. Gaveta\n2. Variável\n3. Dados\n4. Porta-Dados\n";
     r[2] = '2. Variável';
-    p[3] = "- Quando queremos capturar dados do usuário usamos o comando: \n\n1. escreva()\n2. leia()\n3. escrevar()\n4. leitura().\n";
+    p[3] = "- Quando queremos capturar dados do usuário usamos o comando: \n\n1. escreva()\n2. leia()\n3. escrevar()\n4. leitura()\n";
     r[3] = '2. leitura()';
-    p[4] = "- O que esse programa abaixo faz?\n\n<img src=\"img/img.png\">\n\n1. Sim\n2. Não\n3. Talvez\n4. Nunca\n";
-    r[4] = '1. Sim';
-    p[5] = "- O que é uma hardware?\n\n1. É a parte lógica do computador, ou seja, são os programas.\n2. É a parte física do computador\n3. É o que o computador faz quando liga.\n4. É quando o computador desliga.\n";
-    r[5] = '2. É a parte física do computador';
-    p[6] = "- O que esses nomes têm em comum: Facebook, Google, WhatsApp, Calculadora do computador?\n\n1. São dispositivos de entrada.\n2. São dispositivos de saída.\n3. São softwares\n4. São hardwares.\n";
-    r[6] = '3. São softwares';
-    p[7] = "- Complete a frase: 'Qualquer dispositivo que RECEBE dados ou informação é considerado um dispositivo de _________ '?\n\n1. Carro\n2. Geladeira\n3. Saída\n4. Entrada ";
-    r[7] = '4. Entrada';
-    p[8] = "- O computador possui componentes básicos para que a gente possa usá-lo, como o teclado, mouse e monitor. Esses componentes recebem o nome de:\n\n1. Hardware\n2. Software\n3. Programas\n4. Windows";
-    r[8] = '1. Hardware';
-    p[9] = "- A impressora é um dispositivo comum nos computadores para imprimir coisas. Desse modo, ela é considerada como um:\n\n1. Software\n2. Dispositivo de saída\n3. Programa\n4. Dispositivo eletrodoméstico";
-    r[9] = '2. Dispositivo de saída';
-    p[10] = "- Uma caixinha de som do computador representa um ?\n\n1. Dispositivo de saída porque ele transmite algum resultado, que é o som\n2. Software\n3. Dispositivo de entrada porque recebe alguma informação e envia para o computador\n";
+    p[4] = "- O que o programa da Figura1 faz?\n\n1. Mostra qualquer coisa\n2. Soma dois números\n3. Pede a idade ao usuário e mostra a idade na tela\n4. Apenas mostra a idade na tela\n";
+    r[4] = '4. Apenas mostra a idade na tela';
+    p[5] = "- Encontre o erro do programa da Figura6:\n\n1. Não é do tipo cadeia.\n2. Ari não existe nesse programa\n3. A vírgula é a culpa disso tudo.\n4. É tudo culpa do Ari.\n";
+    r[5] = '3. A vírgula é a culpa disso tudo';
+    p[6] = "- O que o programa da Figura3 faz? \n\n1. Soma três números\n2. Apenas soma.\n3. Apenas mostra na tela\n4. Soma dois números e mostra na tela\n";
+    r[6] = '4. Soma dois números e mostra na tela';
+    p[7] = "- No programa da Figura4 vai mostrar ao final o nome e a idade de alguém. Qual nome e qual idade vai ser exibida?'?\n\n1. Ari, 22\n2. João, 12\n3. O nome e a idade do usuário que digitou\n4. Não vai mostrar nada";
+    r[7] = '3. O nome e a idade do usuário que digitou';
+    p[8] = "- O programa da Figura5 tem um erro. Qual erro?\n\n1. O erro está no tipo que guarda um valor diferente\n2. Falta fé\n3. Falta a vírgula\n4. Estamos todos errados";
+    r[8] = '1. O erro está no tipo que guarda um valor diferente';
+    p[9] = "- Na Figura2 tem um programa que mostra uma mensagem na tela de Bom dia. Qual é o tipo de que se guarda a frase\n\n1. Inteiro\n2. Cadeia\n3. Falso\n4. Real";
+    r[9] = '2. Cadeia';
+   /* p[10] = "- Uma caixinha de som do computador representa um ?\n\n1. Dispositivo de saída porque ele transmite algum resultado, que é o som\n2. Software\n3. Dispositivo de entrada porque recebe alguma informação e envia para o computador\n";
     r[10] = '1. Dispositivo de saída porque ele transmite algum resultado, que é o som';
     p[11] = "- O computador é dividido em duas partes. Quais são elas?\n\n1. Hardware e Software\n2. Mouse e Teclado\n3. Facebook e WhatsApp\n4. Monitor e Impressora\n";
     r[11] = '1. Hardware e Software';
@@ -33,9 +33,10 @@
     r[12] = '1. Software';
     p[13] = "- Quais desses objetos são tipos de computadores?\n\n1. Tablet, Celular e Caderno\n2. Livro, Notebook e Tablet\n3. Celular, Tablet e Notebook\n4. Caderno, Livro e Notebook\n";
     r[13] = '3. Celular, Tablet e Notebook';
+    */
     //ADICIONE MAIS PERGUNTAS AQUI COPIANDO 2 EM 2 LINHAS: P[] = PERGUNTA R[] = RESPOSTA
      for(var i=1;i<=t;i++){o[i] = i;} //gera uma sequencia de t numeros
-     for(var i=1;i<=13  ;i++)          //embaralha a sequencia 10 vezes
+     for(var i=1;i<=9;i++)          //embaralha a sequencia 10 vezes
      {
       n=Math.round(t*(Math.random())); 
       m=Math.round(t*(Math.random()));
