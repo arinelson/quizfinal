@@ -13,7 +13,7 @@
     r[2] = '2. Variável';
     p[3] = "- Quando queremos capturar dados do usuário usamos o comando: \n\n1. escreva()\n2. leia()\n3. escrevar()\n4. leitura().\n";
     r[3] = '2. leitura()';
-    p[4] = "- O que esse programa abaixo faz?\n\ninteiro idade = 13\nescreva(\"Uau, você tem", idade, "anos.\")\n\n1. Sim\n2. Não\n3. Talvez\n4. Nunca\n";
+    p[4] = "- O que esse programa abaixo faz?\n\n<img src=\'img/img.png\'>\n\n1. Sim\n2. Não\n3. Talvez\n4. Nunca\n";
     r[4] = '1. Sim';
     p[5] = "- O que é uma hardware?\n\n1. É a parte lógica do computador, ou seja, são os programas.\n2. É a parte física do computador\n3. É o que o computador faz quando liga.\n4. É quando o computador desliga.\n";
     r[5] = '2. É a parte física do computador';
