@@ -13,7 +13,7 @@
     r[2] = '2. Variável';
     p[3] = "- Quando queremos capturar dados do usuário usamos o comando: \n\n1. escreva()\n2. leia()\n3. escrevar()\n4. leitura()\n";
     r[3] = '2. leitura()';
-    p[4] = "- O que o programa da <strong>Figura1</strong> faz?\n\n1. Mostra qualquer coisa\n2. Soma dois números\n3. Pede a idade ao usuário e mostra a idade na tela\n4. Apenas mostra a idade na tela\n";
+    p[4] = "- O que o programa da <h3>Figura1</h3> faz?\n\n1. Mostra qualquer coisa\n2. Soma dois números\n3. Pede a idade ao usuário e mostra a idade na tela\n4. Apenas mostra a idade na tela\n";
     r[4] = '4. Apenas mostra a idade na tela';
     p[5] = "- Encontre o erro do programa da <strong>Figura6</strong>:\n\n1. Não é do tipo cadeia.\n2. Ari não existe nesse programa\n3. A vírgula é a culpa disso tudo.\n4. É tudo culpa do Ari.\n";
     r[5] = '3. A vírgula é a culpa disso tudo';
